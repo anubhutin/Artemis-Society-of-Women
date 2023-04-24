@@ -1,0 +1,147 @@
+body
+{
+     background-color:#33475b;
+}
+
+
+
+
+.topnav
+{
+
+    text-align: center;
+    text-decoration: none;
+    color: red;
+}
+
+img
+{
+    max-width: 10%;
+}
+
+li.navbar
+{
+    display: inline;
+    font-family: Verdana;
+    padding-left: 10px;
+    padding-right: 10px;
+    list-style: none;
+}
+
+
+
+a.name
+{
+    text-decoration: none;
+    color: beige;
+}
+a
+{
+    text-decoration: none;
+    color: rgb(223, 155, 183);
+}
+
+a:hover
+{
+    color:rgb(248, 82, 151);
+}
+
+.top
+{
+    margin-bottom: 100px;
+}
+
+h1
+{
+    color:rgb(248, 82, 151);
+    text-align: center;
+    font-family: "papyrus";
+}
+
+p
+{
+    color:  rgb(223, 155, 183);
+}
+
+li
+{
+    text-align: center;
+}
+th.click{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: beige;
+    font-size: 30px;
+    
+}
+table.Join{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    border-radius: 50%;
+    background-color: #33475b;
+    border: 1px dotted rgb(223, 155, 183);;
+    border-collapse: collapse;
+    padding: 100px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color:#33475b;
+    font-size: 20px;
+}
+
+.people
+{
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    border-radius: 60%;
+}
+
+th.topic{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: beige;
+    font-size: 30px;
+}
+td{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color:#33475b;
+    font-size: 20px;
+    background-color:  rgb(182, 199, 229);
+}
+
+
+
+ul.list{
+    list-style-type:circle;
+    display: inline;
+    color: rgb(182, 199, 229);
+}
+
+.footer
+{
+    font-family:Georgia, 'Times New Roman', Times, serif
+    text-align: center;
+    width: 100%;
+    margin-top: 100px;
+    color: #228B22;
+}
+h3{
+    font-family:'Papyrus';
+    text-align:center; 
+    color: rgb(182, 199, 229);
+}
+th.one{
+   
+    font-size: 30px;
+    color: rgb(248, 82, 151);
+  
+}
+td.two{
+   
+    background-color: #33475b;
+    color: rgb(223, 155, 183);
+}
+  

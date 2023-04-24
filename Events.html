@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="Events.css">
+    <title>Events</title>
+  </head>
+  <body>
+
+    <div class="topnav">
+      <ul>
+        <li class="navbar"><a href="in.html">Home</a></li>
+        <li class="navbar"><a href="About Us.html">About Us</a></li>
+        <li class="navbar"><img class="logo" src="Artemis_Society_TITLE-removebg-preview.png"></li>
+        <li class="navbar"><a href="Become A Member.html">Become A Member</a></li>
+        <li class="navbar"><a href="Events.html">Events</a></li>
+      </ul>
+    </div>
+
+
+    <header>
+      <h1>Distribution and Awareness Drives</h1>
+    </header>
+       
+    <div class="gallery1">
+      <div class="gallery-item1">
+        <img src="IMG-20211212-WA0004.jpg" alt="Image 1">
+      </div>
+      <div class="gallery-item1">
+        <img src="IMG-20211117-WA0036.jpg" alt="Image 2">
+      </div>
+      <div class="gallery-item1">
+        <img src="IMG20211118163102.jpg" alt="Image 3">
+      </div>
+      <div class="gallery-item1">
+        <img src="IMG-20211214-WA0004.jpg" alt="Image 4">
+      </div>
+    </div>
+
+        
+    <div class="gallery1">
+      <div class="gallery-item1">
+        <img src="IMG20211118163903.jpg"Image 1">
+      </div>
+      <div class="gallery-item1">
+        <img src="IMG-20220713-WA0029.jpg" alt="Image 2">
+      </div>
+      <div class="gallery-item1">
+        <img src="IMG-20211118-WA0065.jpg" alt="Image 3">
+      </div>
+      <div class="gallery-item1">
+        <img src="IMG-20211214-WA0010.jpg" alt="Image 4">
+      </div>
+    </div>
+    
+    
+          
+        
+        
+    <header>
+    <h1>Instagram Events</h1>
+    
+</header>
+
+  </head>
+  <body>
+  
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <img src="instagram (1).jpeg">
+      </div>
+  
+      <div class="mySlides fade">
+        <img src="instagram (2).jpeg">
+      </div>
+  
+      <div class="mySlides fade">
+        <img src="instagram (3).jpeg">
+      </div>
+      <div class="mySlides fade">
+          <img src="instagram (4).jpeg">
+        </div>
+  
+        <div class="mySlides fade">
+          <img src="instagram (5).jpeg">
+        </div>
+        <div class="mySlides fade">
+          <img src="instagram (6).jpeg">
+        </div>
+    
+      <button class="prev" onclick="plusSlides(-1)">❮</button>
+      <button class="next" onclick="plusSlides(1)">❯</button>
+    </div>
+  
+    <script>
+     var slideIndex = 1;
+  showSlides(slideIndex);
+  
+  // Next/previous controls
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+  
+  // Thumbnail image controls
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+  
+  function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+  }
+  
+    </script>
+  
+  </body>
+  <h3>Written by <a href="mailto:anubhuti.is21@bmsce.ac.in"></a>Anubhuti Anand Narayan</h3>
+</html>

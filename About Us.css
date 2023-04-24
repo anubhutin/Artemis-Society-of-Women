@@ -1,0 +1,111 @@
+body
+{
+     background-color:#33475b;
+}
+
+h1
+{
+    text-align: center;
+    color: rgb(223, 155, 183);
+    font-family:'Papyrus';
+}
+
+
+.topnav
+{
+
+    text-align: center;
+    text-decoration: none;
+    color: red;
+}
+
+img
+{
+    max-width: 10%;
+}
+
+li
+{
+    display: inline;
+    font-family: Verdana;
+    padding-left: 10px;
+    padding-right: 10px;
+    list-style: none;
+}
+
+
+
+a.name
+{
+    text-decoration: none;
+    color: beige;
+}
+a
+{
+    text-decoration: none;
+    color: rgb(223, 155, 183);
+}
+
+a:hover
+{
+    color:rgb(248, 82, 151);
+}
+
+.top
+{
+    margin-bottom: 100px;
+}
+
+h2
+{
+    color:  rgb(223, 155, 183);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p
+{
+    color:  rgb(223, 155, 183);
+}
+
+li
+{
+    text-align: center;
+}
+
+.people
+{
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    border-radius: 60%;
+}
+ul.middle{
+    background-image: url('bg-image.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100% ;
+    background-position: center;
+
+}
+
+.footer
+{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    width: 100%;
+    margin-top: 100px;
+    color: #228B22;
+}
+h3{
+    font-family:'Papyrus';
+    text-align:center; 
+    color: rgb(223, 155, 183);
+}
+#increasing-number
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: beige
+}
